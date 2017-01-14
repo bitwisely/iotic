@@ -1,0 +1,2 @@
+# NOT SURE IF mmcblk0p7 will work for all raspberry devices.
+dwc_otg.lpm_enable=0 root=/dev/mmcblk0p7 rootfstype=ext4 elevator=deadline rootwait fastboot noswap ro
